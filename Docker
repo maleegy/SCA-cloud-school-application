@@ -1,0 +1,27 @@
+FROM Dockerfile
+
+# Copies your code file from your action repository to the filesystem path `/` of the container
+COPY SCA-cloud-school-application
+
+# Code file to execute when the docker container starts up
+ENTRYPOINT ["/Dockerfile"]
+
+<html>
+<main>
+
+<P>
+    <b>
+       Welcome to SCA cloud school application. 
+    </b>
+
+
+</p>
+
+</main>
+
+
+
+
+<css>
+</css>
+</html>
